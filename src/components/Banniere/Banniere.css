@@ -1,0 +1,25 @@
+.BanniereContainer{ 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 142.6%;
+    color: #FFFFFF;
+    background-color: red;
+    width: 1400px;
+    height: 223px;
+    margin-left: 10%;
+    border-radius: 25px;
+    background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../assets/Barriere.png");
+}
+img{
+    width: 1400px;
+    height: 223px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+p{
+    padding-top: 5%;
+}
