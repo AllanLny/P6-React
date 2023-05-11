@@ -1,9 +1,15 @@
 import React from 'react'
+import Header from '../Header/Header'
+import '../404/Page404.css'
+import { Link } from 'react-router-dom'
 
 export default function Page404() {
     return (
         <div>
-            <h1>404</h1>
-        </div>
+            <Header />
+            <div className='P404'>404</div>
+            <div className='Texte404'>Oups! La page que vous demandez n'existe pas.</div>
+            <Link to="" className='Link404'>Retourner sur la page d'accueil</Link>
+        </div >
     )
 }
