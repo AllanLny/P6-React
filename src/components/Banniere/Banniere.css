@@ -1,7 +1,7 @@
 .BanniereContainer{ 
     width: 1400px;
     height: 223px;
-    margin-left: 10%;
+    margin-left: 13%;
     border-radius: 25px;
     background-position: center;
 	background-size: cover;
@@ -15,12 +15,7 @@
     line-height: 142.6%;
     color: #FFFFFF;
 }
-img{
-    width: 1400px;
-    height: 223px;
-    border-radius: 25px;
-    object-fit: cover;
-}
-p{
+
+.BanniereContainer>p{
     padding-top: 5%;
 }
