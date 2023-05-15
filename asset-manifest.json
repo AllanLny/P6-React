@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/P6-React/static/css/main.4beae5d2.css",
-    "main.js": "/P6-React/static/js/main.8fd326bf.js",
+    "main.css": "/P6-React/static/css/main.734c3b3b.css",
+    "main.js": "/P6-React/static/js/main.51a19795.js",
     "static/media/Barriere.png": "/P6-React/static/media/Barriere.19221376a0aa2549c135.png",
     "index.html": "/P6-React/index.html",
-    "main.4beae5d2.css.map": "/P6-React/static/css/main.4beae5d2.css.map",
-    "main.8fd326bf.js.map": "/P6-React/static/js/main.8fd326bf.js.map"
+    "main.734c3b3b.css.map": "/P6-React/static/css/main.734c3b3b.css.map",
+    "main.51a19795.js.map": "/P6-React/static/js/main.51a19795.js.map"
   },
   "entrypoints": [
-    "static/css/main.4beae5d2.css",
-    "static/js/main.8fd326bf.js"
+    "static/css/main.734c3b3b.css",
+    "static/js/main.51a19795.js"
   ]
 }
