@@ -1,12 +1,14 @@
 .BanniereContainer{ 
-    width: 1400px;
-    height: 223px;
-    margin-left: 13%;
     border-radius: 25px;
     background-position: center;
 	background-size: cover;
 	border-radius: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../assets/Barriere.png");
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 .BanniereContainer>p{
     font-family: 'Montserrat';
@@ -14,8 +16,4 @@
     font-size: 48px;
     line-height: 142.6%;
     color: #FFFFFF;
-}
-
-.BanniereContainer>p{
-    padding-top: 5%;
 }
