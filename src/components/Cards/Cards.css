@@ -1,0 +1,24 @@
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    gap: 20Px;
+    margin-bottom: 22px;
+    margin-top: 70px;
+    justify-content: center
+}
+.card-item{
+    border-radius: 15px;
+	max-height: 255px;
+    max-width: 100%;
+    overflow: hidden; 
+}
+.card-item-image{
+    filter: brightness(70%);
+    height: 255px;
+    width: 335px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.card-item-image:hover{
+    filter: brightness(100%);
+}

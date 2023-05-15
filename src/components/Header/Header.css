@@ -1,19 +1,21 @@
 .NavBarContainer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navLogo{
  width: 150px;
  height: 50px;
- padding-top: 35px;
- padding-left: 3%;
+ margin-top: 35px;
+ margin-left: 3%;
 }
 
 ul{
     width: 400px;
     list-style: none;
     display: flex;
+
 }
 li{
     white-space: nowrap;
@@ -23,7 +25,8 @@ font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 142.6%;
-padding-right: 25%;padding-top: 35px;
+margin-left: 10%;
+margin-top: 40px;
 }
 
 .Accueil{

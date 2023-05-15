@@ -13,3 +13,9 @@
     line-height: 142.6%;
     color: #FFFFFF;
 }
+.FooterContainer>img{
+    width: 150px;
+    height: 50px;
+    margin-top: 35px;
+
+}
