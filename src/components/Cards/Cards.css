@@ -1,24 +1,42 @@
 .card-container{
     display: grid;
     grid-template-columns: repeat(3, 380px);
-    gap: 20Px;
+    gap: 60Px;
     margin-bottom: 22px;
     margin-top: 70px;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
+    border-radius: 20px;
+    padding-left: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .card-item{
+    display: flex;
     border-radius: 15px;
 	max-height: 255px;
     max-width: 100%;
-    overflow: hidden; 
+    cursor: pointer;
+    margin-top: 40px;
 }
 .card-item-image{
-    filter: brightness(70%);
     height: 255px;
     width: 335px;
     object-fit: cover;
     border-radius: 15px;
 }
-.card-item-image:hover{
-    filter: brightness(100%);
+.card-item-image:hover{ 
+}
+.card-item-text{
+	position: absolute;
+    margin-top: 200Px;
+    margin-left: 1%;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    width: 15%;
 }

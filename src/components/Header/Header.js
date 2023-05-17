@@ -1,15 +1,16 @@
 import React from 'react'
 import LOGO from "../../assets/.LOGO.png"
 import "../Header/Header.css"
+import { NavLink } from 'react-router-dom'
 
 export default function Header() {
     return (
         <nav className='NavBarContainer'>
-            <img className='navLogo' src={LOGO} alt='LogoKasa'></img>
+            <img className='navLogo' src={LOGO} alt='LogoKasa' to="P6-React/" ></img>
             <nav className='NavBar'>
                 <ul>
-                    <li><a className="Accueil" >Accueil</a></li>
-                    <li><a className="A_Propos" >A Propos</a></li>
+                    <li><NavLink className="Accueil" to="/" >Accueil</NavLink></li>
+                    <li><NavLink className="A_Propos" to="/About" >A Propos</NavLink></li>
                 </ul>
             </nav>
         </nav>

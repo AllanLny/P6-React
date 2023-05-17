@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="P6-React/" element={<Home />} />
-          <Route path="P6-React/About" element={<About />} />
+          <Route path="/" element={<Home />} />
+          <Route path="About" element={<About />} />
           <Route path="P6-React/*" element={<Page404 />} />
         </Routes>
       </BrowserRouter>
