@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a7447c5.css",
-    "main.js": "/static/js/main.9b6637c8.js",
-    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png": "/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.640955dab8c7bff25514.png",
-    "static/media/Barriere.png": "/static/media/Barriere.19221376a0aa2549c135.png",
-    "index.html": "/index.html",
-    "main.1a7447c5.css.map": "/static/css/main.1a7447c5.css.map",
-    "main.9b6637c8.js.map": "/static/js/main.9b6637c8.js.map"
+    "main.css": "/P6-React/static/css/main.49fb7f73.css",
+    "main.js": "/P6-React/static/js/main.9b6637c8.js",
+    "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png": "/P6-React/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.640955dab8c7bff25514.png",
+    "static/media/Barriere.png": "/P6-React/static/media/Barriere.19221376a0aa2549c135.png",
+    "index.html": "/P6-React/index.html",
+    "main.49fb7f73.css.map": "/P6-React/static/css/main.49fb7f73.css.map",
+    "main.9b6637c8.js.map": "/P6-React/static/js/main.9b6637c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a7447c5.css",
+    "static/css/main.49fb7f73.css",
     "static/js/main.9b6637c8.js"
   ]
 }
