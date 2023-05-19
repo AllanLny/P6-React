@@ -6,11 +6,11 @@ import Data from '../Cards/Cards'
 
 export default function Home() {
     return (
-        <div>
+        <>
             <Header />
             <Banniere />
             <Data />
             <Footer />
-        </div>
+        </>
     )
 }

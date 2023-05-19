@@ -10,8 +10,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="About" element={<About />} />
-          <Route path="P6-React/*" element={<Page404 />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/*" element={<Page404 />} />
         </Routes>
       </BrowserRouter>
     </div>

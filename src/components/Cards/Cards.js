@@ -4,7 +4,7 @@ import Data from '../Data/data.json'
 
 export default function Cards() {
     return (
-        <section className="card-container">
+        <article className="card-container">
             {Data &&
                 Data.map((Data, index) => (
                     <div className="card-item" key={index}>
@@ -14,6 +14,6 @@ export default function Cards() {
                     </div>
                 ))
             }
-        </section>
+        </article>
     )
 }
