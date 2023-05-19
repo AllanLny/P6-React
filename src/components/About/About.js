@@ -36,7 +36,6 @@ export default function About() {
                     />
                 </section >
             </article>
-
             <Footer />
         </>
     )

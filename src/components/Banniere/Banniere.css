@@ -33,6 +33,6 @@ p>br {
         font-size: 24px;
     }
     p>br {
-        display: inline;
+        display: none;
     }
 }

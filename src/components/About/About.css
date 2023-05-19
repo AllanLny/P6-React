@@ -1,13 +1,13 @@
 .BanniereAboutContainer{
-    border-radius: 25px;
 	background-size: cover;
-    background-position-y: 53%;
+    background-position-y: 570px;
 	border-radius: 20px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../assets/kalen-emsley-Bkci_8qcdvQ-unsplash\ 2.png");
     text-align: center;
-    padding-top: 6%;
-    padding-bottom: 6%;
-    margin-top: 2%;
-    margin-left:  10% ;
-    margin-right: 10% ;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 40px;
+    margin-left:  auto ;
+    margin-right: auto ;
+    width: 1550px;
 }
