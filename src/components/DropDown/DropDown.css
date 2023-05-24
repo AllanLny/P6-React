@@ -3,7 +3,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-
 }
 .DropBtn{
     position: relative;
@@ -43,4 +42,29 @@ color: #FFFFFF;
     padding-top: 10px;
     padding-bottom: 20px; 
     margin-top: 0%;
+}
+@media (max-width:1360px) {
+    .DropDownContainer{
+        width: 1100px;
+    }
+}
+@media (max-width:1142px) {
+    .DropDownContainer{
+        width: 900px;
+    }
+}
+@media (max-width:916px) {
+    .DropDownContainer{
+        width: 500px;
+    }
+}
+@media (max-width:564px) {
+    .DropDownContainer{
+        width: 270px;
+    }
+}
+@media (max-width:284px) {
+    .DropDownContainer{
+        width: 150px;
+    }
 }
