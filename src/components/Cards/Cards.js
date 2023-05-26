@@ -1,19 +1,22 @@
 import React from 'react'
 import '../Cards/Cards.css'
-import Data from '../Data/data.json'
+import LogementJson from '../LogementJson/logement.json'
+import { NavLink } from 'react-router-dom'
 
 export default function Cards() {
     return (
         <article className="card-container">
-            {Data &&
-                Data.map((Data, index) => (
-                    <div className="card-item" key={index}>
-                        <img className="card-item-image" src={Data.cover} alt={'Photo' + Data.title}>
-                        </img>
-                        <p className="card-item-text"> {Data.title} </p>
-                    </div>
+            {LogementJson &&
+                LogementJson.map((LogementJson, index) => (
+                    <NavLink to={`logement/${LogementJson.id}`} key={LogementJson.id + index} >
+                        <div className="card-item" key={index}>
+                            <img className="card-item-image" src={LogementJson.cover} alt={'Photo' + LogementJson.title}>
+                            </img>
+                            <p className="card-item-text"> {LogementJson.title} </p>
+                        </div>
+                    </NavLink>
                 ))
             }
-        </article>
+        </article >
     )
 }

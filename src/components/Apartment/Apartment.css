@@ -1,0 +1,15 @@
+.LogementDropDownContainer{
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.LogementDropdownDesc{
+    padding-right: 100px;
+}
+
+.DropDownContainer {
+    padding-left: 50px;
+    padding-right: 50px;
+}
