@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.394bb5ba.css",
-    "main.js": "/static/js/main.f129493c.js",
+    "main.css": "/static/css/main.8c86c39e.css",
+    "main.js": "/static/js/main.c169e7dd.js",
     "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png": "/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.640955dab8c7bff25514.png",
     "static/media/Barriere.png": "/static/media/Barriere.19221376a0aa2549c135.png",
     "index.html": "/index.html",
-    "main.394bb5ba.css.map": "/static/css/main.394bb5ba.css.map",
-    "main.f129493c.js.map": "/static/js/main.f129493c.js.map"
+    "main.8c86c39e.css.map": "/static/css/main.8c86c39e.css.map",
+    "main.c169e7dd.js.map": "/static/js/main.c169e7dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.394bb5ba.css",
-    "static/js/main.f129493c.js"
+    "static/css/main.8c86c39e.css",
+    "static/js/main.c169e7dd.js"
   ]
 }
