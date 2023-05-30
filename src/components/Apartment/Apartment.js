@@ -16,12 +16,20 @@ export default function Apartment() {
     return (
         <>
             <Header />
-
+            <Caroussel pictures={DataLogement.pictures} />
             <article className='LogementDropDownContainer'>
                 <Dropdown title={"Description"} description={DataLogement.description} />
-                <Dropdown title={"Équipements"} description={DataLogement.equipments} />
+                <Dropdown title={"Équipements"} description={
+                    DataLogement.equipments &&
+                    DataLogement.equipments.map((equipement, index) => {
+                        return (
+                            <ul className='equipements' key={equipement + index}>
+                                <li>{equipement}</li>
+                            </ul>
+                        )
+                    })
+                } />
             </article>
-
             <Footer />
         </>
     )

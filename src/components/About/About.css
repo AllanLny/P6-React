@@ -10,6 +10,7 @@
     margin-left:  auto ;
     margin-right: auto ;
     width: 1550px;
+    height: 20px;
 }
 @media (max-width:1570px) {
     .BanniereAboutContainer{

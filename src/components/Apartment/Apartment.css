@@ -2,14 +2,14 @@
     display: flex;
     margin: auto;
     margin-bottom: 50px;
-    width: 90%;
+    width: 84%;
 }
 
-.LogementDropdownDesc{
-    padding-right: 100px;
+.LogementDropDownContainer>.DropDownContainer {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.DropDownContainer {
-    padding-left: 50px;
-    padding-right: 50px;
+.equipements{
+    margin: 0%;
 }
