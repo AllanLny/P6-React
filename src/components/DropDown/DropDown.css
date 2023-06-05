@@ -28,7 +28,6 @@ color: #FFFFFF;
 }
 .DropDownContainerTexte{
     background-color: #F6F6F6;
-    width: 100%;
     height: auto;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -41,6 +40,8 @@ color: #FFFFFF;
     word-wrap: break-word;
     padding-top: 10px;
     padding-bottom: 20px; 
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: 0%;
 }
 @media (max-width:1360px) {

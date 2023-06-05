@@ -6,6 +6,8 @@ import Caroussel from '../Caroussel/Caroussel'
 import Dropdown from '../DropDown/DropDown'
 import LogementJson from '../LogementJson/logement.json'
 import { useParams } from 'react-router-dom'
+import InfoLogement from '../InfoLogement/InfoLogement'
+
 
 
 
@@ -17,6 +19,7 @@ export default function Apartment() {
         <>
             <Header />
             <Caroussel pictures={DataLogement.pictures} />
+            <InfoLogement />
             <article className='LogementDropDownContainer'>
                 <Dropdown title={"Description"} description={DataLogement.description} />
                 <Dropdown title={"Équipements"} description={
