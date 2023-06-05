@@ -1,5 +1,6 @@
 import StarRed from '../../assets/StarsRed.png'
 import StarGrey from '../../assets/StarsGrey.png'
+import "../Rating/Rating.css"
 
 function Rating(LogementJson) {
     let LogementRatingRed = LogementJson.rating;
@@ -7,14 +8,14 @@ function Rating(LogementJson) {
     const Starsgrey = () => {
         let greyStarsArray = []
         for (let i = 0; i < LogementRatingGrey; i++) {
-            greyStarsArray.push(<img src={StarGrey} key={`Étoile grisée n°${i}`} alt={`Étoiles`} />)
+            greyStarsArray.push(<img className='GreyStars' src={StarGrey} key={`Étoile grisée n°${i}`} alt={`Étoiles`} />)
         }
         return greyStarsArray;
     }
     const Starsred = () => {
         let redStarsArray = []
         for (let j = 0; j < LogementRatingRed; j++) {
-            redStarsArray.push(<img src={StarRed} key={`Étoile rouge n°${j}`} alt={`Étoiles`} />)
+            redStarsArray.push(<img className='RedStars' src={StarRed} key={`Étoile rouge n°${j}`} alt={`Étoiles`} />)
         }
         return redStarsArray;
     }
