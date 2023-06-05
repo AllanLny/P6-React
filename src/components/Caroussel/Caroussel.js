@@ -31,9 +31,12 @@ export default function Caroussel(pictures) {
                                 </div>
                             </div>
                         )
+
                     })}
-                <img className="VectorD" src={VectorD} alt="Vector_Droite" onClick={ImageSuivante} />
-                <img className="VectorG" src={VectorG} alt="Vector_Gauche" onClick={ImagePrecedente} />
+                <div className={pictures.pictures.length === 1 ? 'hide' : ''}>
+                    <img className="VectorD" src={VectorD} alt="Vector_Droite" onClick={ImageSuivante} />
+                    <img className="VectorG" src={VectorG} alt="Vector_Gauche" onClick={ImagePrecedente} />
+                </div>
             </div>
         </div>
     )

@@ -50,3 +50,6 @@
     bottom: 60px;
     color: #FFFFFF;
 }
+.hide {
+    display: none;
+}
