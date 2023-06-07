@@ -40,21 +40,44 @@ font-size: 24px;
 line-height: 142.6%;
     text-decoration-line: none;
 }
-
-@media (min-width:467px) and (max-width:555px) {
+@media (max-width:700px) {
     .A_Propos {
         font-size: 16px;
+        text-transform: uppercase;
     }
     .Accueil{
         font-size: 16px;
+        text-transform: uppercase;
+    }
+}
+@media (max-width:600px) {
+    .A_Propos {
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .Accueil{
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+}
+@media (min-width:467px) and (max-width:555px) {
+    .A_Propos {
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .Accueil{
+        font-size: 16px;
+        text-transform: uppercase;
     }
 }
 @media (min-width:405px) and (max-width:467px) {
     .A_Propos {
         font-size: 13px;
+        text-transform: uppercase;
     }
     .Accueil{
         font-size: 13px;
+        text-transform: uppercase;
     }
     .navLogo{
         width: 130px;
@@ -65,9 +88,11 @@ line-height: 142.6%;
 @media (min-width:351px) and (max-width:405px) {
     .A_Propos {
         font-size: 12px;
+        text-transform: uppercase;
     }
     .Accueil{
         font-size: 12px;
+        text-transform: uppercase;
     }
     .navLogo{
         width: 110px;
@@ -78,9 +103,11 @@ line-height: 142.6%;
 @media (min-width:0) and (max-width:351px) {
     .A_Propos {
         font-size: 12px;
+        text-transform: uppercase;
     }
     .Accueil{
         font-size: 12px;
+        text-transform: uppercase;
     }
     .navLogo{
         width: 90px;

@@ -7,6 +7,9 @@ import Dropdown from '../DropDown/DropDown'
 import LogementJson from '../LogementJson/logement.json'
 import { useParams } from 'react-router-dom'
 import InfoLogement from '../InfoLogement/InfoLogement'
+import Page404 from '../404/Page404'
+
+
 
 
 
@@ -14,6 +17,7 @@ import InfoLogement from '../InfoLogement/InfoLogement'
 export default function Apartment() {
     const { id } = useParams();
     const DataLogement = LogementJson.find((product) => product.id === id)
+    if (!DataLogement) return <Page404 />
 
     return (
         <>
