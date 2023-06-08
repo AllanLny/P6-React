@@ -2,14 +2,14 @@ import React from 'react'
 import Header from '../Header/Header'
 import Banniere from '../Banniere/Banniere'
 import Footer from '../Footer/Footer'
-import Data from '../Cards/Cards'
+import Cards from '../Cards/Cards'
 
 export default function Home() {
     return (
         <>
             <Header />
             <Banniere />
-            <Data />
+            <Cards />
             <Footer />
         </>
     )
