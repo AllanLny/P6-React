@@ -15,8 +15,10 @@
 
 ul{
     list-style: none;
+    
     display: flex;
     gap: 30px;
+    
     white-space: nowrap; 
 }
 
@@ -24,12 +26,13 @@ ul{
     cursor: pointer;
     color: #FF6060;
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 142.6%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
     text-decoration-line: none;
 }
+
 .A_Propos{
     cursor: pointer;
     color: #FF6060;
@@ -40,6 +43,16 @@ font-size: 24px;
 line-height: 142.6%;
     text-decoration-line: none;
 }
+.Active{
+    cursor: pointer;
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+}
+
 @media (max-width:700px) {
     .A_Propos {
         font-size: 16px;

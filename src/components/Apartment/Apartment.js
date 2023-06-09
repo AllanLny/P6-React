@@ -10,10 +10,6 @@ import InfoLogement from '../InfoLogement/InfoLogement'
 import Page404 from '../404/Page404'
 
 
-
-
-
-
 export default function Apartment() {
     const { id } = useParams();
     const DataLogement = LogementJson.find((product) => product.id === id)
