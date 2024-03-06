@@ -1,0 +1,33 @@
+$footer-container-height: 209px;
+$footer-container-background: #000000;
+$footer-container-margin-top: 5%;
+$footer-text-font-family: 'Montserrat';
+$footer-text-font-weight: 500;
+$footer-text-font-size: 24px;
+$footer-text-line-height: 142.6%;
+$footer-text-color: #FFFFFF;
+$footer-img-width: 150px;
+$footer-img-height: 50px;
+$footer-img-margin-top: 35px;
+
+.FooterContainer {
+    height: $footer-container-height;
+    background: $footer-container-background;
+    margin-top: $footer-container-margin-top;
+    text-align: center;
+
+    > p {
+        font-family: $footer-text-font-family;
+        font-style: normal;
+        font-weight: $footer-text-font-weight;
+        font-size: $footer-text-font-size;
+        line-height: $footer-text-line-height;
+        color: $footer-text-color;
+    }
+
+    > img {
+        width: $footer-img-width;
+        height: $footer-img-height;
+        margin-top: $footer-img-margin-top;
+    }
+}

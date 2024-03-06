@@ -1,0 +1,82 @@
+$nav-logo-width: 150px;
+
+.NavBarContainer {
+    display: flex;
+    text-align: right;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    .navLogo {
+        width: $nav-logo-width;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        white-space: nowrap;
+    }
+
+    .Accueil,
+    .A_Propos,
+    .Active {
+        cursor: pointer;
+        color: #FF6060;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 142.6%;
+        text-decoration-line: none;
+    }
+
+    @media (max-width: 700px), (max-width: 600px), (min-width: 467px) and (max-width: 555px) {
+        .Accueil,
+        .Active,
+        .A_Propos {
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+    }
+
+    @media (min-width: 405px) and (max-width: 467px) {
+        .Accueil,
+        .Active,
+        .A_Propos {
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+        .navLogo {
+            width: 130px;
+        }
+    }
+
+    @media (min-width: 351px) and (max-width: 405px) {
+        .Accueil,
+        .Active,
+        .A_Propos{
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        .navLogo {
+            width: 110px;
+        }
+    }
+
+    @media (min-width: 0) and (max-width: 351px) {
+        .Accueil,
+        .Active,
+        .A_Propos {
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        .navLogo {
+            width: 90px;
+        }
+    }
+    
+}

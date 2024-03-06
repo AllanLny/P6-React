@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Header/Header'
-import '../404/Page404.css'
+import '../404/Page404.scss'
 import { Link } from 'react-router-dom'
 
 export default function Page404() {

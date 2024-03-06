@@ -1,38 +1,44 @@
-.BanniereContainer{ 
-    border-radius: 25px;
-    background-position: center;
-	background-size: cover;
-	border-radius: 20px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../assets/Barriere.png");
-    text-align: center;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-    margin-top: 2%;
-    margin-left:  10% ;
-    margin-right: 10% ;
-    
-}
+$container-background: url("../../assets/Barriere.png");
+$container-gradient: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+$container-border-radius: 25px;
+$container-padding-top-bottom: 0.5%;
+$container-margin: 2%;
 
-.BanniereContainer>p{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-size: 48px;
-    line-height: 142.6%;
-    color: #FFFFFF;
-}
-p>br {
-    display: none;
-}
-@media (min-width:0) and (max-width:865px) {
-    .BanniereContainer{ 
+.BanniereContainer {
+    border-radius: $container-border-radius;
+    background-position: center;
+    background-size: cover;
+    background-image: #{$container-gradient}, #{$container-background};
+    text-align: center;
+    padding-top: $container-padding-top-bottom;
+    padding-bottom: $container-padding-top-bottom;
+    margin-top: $container-margin;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    > p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 48px;
+        line-height: 142.6%;
+        color: #FFFFFF;
+
+        > br {
+            display: none;
+        }
+    }
+
+    @media (max-width: 865px) {
         border-radius: 20px;
-        margin-left:  7% ;
-        margin-right: 7% ;
-    }
-    .BanniereContainer>p{
-        font-size: 24px;
-    }
-    p>br {
-        display: none;
+        margin-left: 7%;
+        margin-right: 7%;
+
+        > p {
+            font-size: 24px;
+
+            > br {
+                display: none;
+            }
+        }
     }
 }

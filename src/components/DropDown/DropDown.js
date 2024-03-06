@@ -1,4 +1,4 @@
-import "../DropDown/DropDown.css"
+import "../DropDown/DropDown.scss"
 import { useState } from 'react'
 import VectorUp from '../../assets/VectorH.png'
 import VectorDown from '../../assets/VectorB.png'

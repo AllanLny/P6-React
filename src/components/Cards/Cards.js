@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Cards/Cards.css'
+import '../Cards/Cards.scss'
 import LogementJson from '../LogementJson/logement.json'
 import { NavLink } from 'react-router-dom'
 

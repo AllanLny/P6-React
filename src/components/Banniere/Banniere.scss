@@ -1,0 +1,43 @@
+$base-margin-horizontal: 10%;
+$base-border-radius: 20px;
+$base-font-size: 48px;
+
+.BanniereContainer {
+    border-radius: $base-border-radius;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../assets/Barriere.png");
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    margin-top: 2%;
+    margin-left: $base-margin-horizontal;
+    margin-right: $base-margin-horizontal;
+
+    > p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: $base-font-size;
+        line-height: 142.6%;
+        color: #FFFFFF;
+        font-weight: 700;
+
+        > br {
+            display: none;
+        }
+    }
+
+    @media (max-width: 865px) {
+        border-radius: $base-border-radius;
+        margin-left: 7%;
+        margin-right: 7%;
+
+        > p {
+            font-size: 24px;
+
+            > br {
+                display: block;
+            }
+        }
+    }
+}

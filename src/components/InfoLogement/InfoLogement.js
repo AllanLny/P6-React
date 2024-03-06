@@ -1,5 +1,5 @@
 import React from 'react'
-import "../InfoLogement/InfoLogement.css"
+import "../InfoLogement/InfoLogement.scss"
 import LogementJson from '../LogementJson/logement.json'
 import { useParams } from 'react-router-dom'
 import Rating from '../Rating/Rating'

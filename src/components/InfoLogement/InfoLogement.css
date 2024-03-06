@@ -119,7 +119,7 @@ margin-top: 20px;
     .InfoLogement2Container{
         display: flex;
         flex-direction: row-reverse;
-        gap: 115px;
+        gap: 80px;
     }
     
 }

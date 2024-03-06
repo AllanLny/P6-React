@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Apartment/Apartment.css"
+import "../Apartment/Apartment.scss"
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import Caroussel from '../Caroussel/Caroussel'

@@ -1,6 +1,6 @@
 import StarRed from '../../assets/StarsRed.png'
 import StarGrey from '../../assets/StarsGrey.png'
-import "../Rating/Rating.css"
+import "../Rating/Rating.scss"
 
 function Rating(LogementJson) {
     let LogementRatingRed = LogementJson.rating;

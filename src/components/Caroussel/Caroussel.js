@@ -2,7 +2,7 @@ import React from 'react'
 import VectorG from '../../assets/VectorG.png'
 import VectorD from '../../assets/VectorD.png'
 import { useState } from 'react'
-import "../Caroussel/Caroussel.css"
+import "../Caroussel/Caroussel.scss"
 
 export default function Caroussel(pictures) {
 

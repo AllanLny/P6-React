@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Banniere/Banniere.css'
+import '../Banniere/Banniere.scss'
 
 
 export default function Banniere() {

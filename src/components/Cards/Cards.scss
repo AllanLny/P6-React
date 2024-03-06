@@ -1,0 +1,177 @@
+$base-margin-horizontal: 10%;
+$base-border-radius: 15px;
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    gap: 40px;
+    margin-bottom: 22px;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
+    border-radius: $base-border-radius;
+    padding-left: 3%;
+    margin-left: $base-margin-horizontal;
+    margin-right: $base-margin-horizontal;
+    padding-bottom: 3%;
+
+    .card-item {
+        display: flex;
+        border-radius: $base-border-radius;
+        max-height: 255px;
+        max-width: 100%;
+        cursor: pointer;
+        margin-top: 40px;
+
+        &-image {
+            height: 255px;
+            width: 335px;
+            object-fit: cover;
+            border-radius: $base-border-radius;
+        }
+
+        &-text {
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 1%;
+            color: #FFFFFF;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 100%;
+            width: 15%;
+        }
+    }
+
+    @media (max-width: 1554px) {
+        grid-template-columns: repeat(2, 380px);
+    }
+
+    @media (max-width: 1010px) {
+        grid-template-columns: repeat(1, 380px);
+    }
+
+    @media (max-width: 800px) {
+        margin-top: 35px;
+
+        .card-item {
+            display: flex;
+            border-radius: $base-border-radius;
+            max-height: 150px;
+            max-width: 100%;
+            cursor: pointer;
+            margin-top: 40px;
+            margin-left: 9%;
+            margin-bottom: 50px;
+
+            &-image {
+                height: 200px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: $base-border-radius;
+            }
+
+            &-text {
+                position: absolute;
+                margin-top: 150px;
+                margin-left: 1%;
+                line-height: 100%;
+                width: 35%;
+                font-size: 15px;
+            }
+        }
+    }
+
+    @media (max-width: 400px) {
+        margin-top: 25px;
+        grid-template-columns: repeat(1, 380px);
+        gap: 10px;
+
+        .card-item {
+            display: flex;
+            border-radius: $base-border-radius;
+            max-height: 150px;
+            max-width: 100%;
+            cursor: pointer;
+            margin-top: 40px;
+            margin-left: 15.5%;
+
+            &-image {
+                height: 150px;
+                width: 250px;
+                object-fit: cover;
+                border-radius: $base-border-radius;
+            }
+
+            &-text {
+                position: absolute;
+                margin-top: 90px;
+                margin-left: 1%;
+                line-height: 100%;
+                width: 70%;
+            }
+        }
+    }
+
+    @media (max-width: 319px) {
+        margin-top: 20px;
+
+        .card-item {
+            display: flex;
+            border-radius: $base-border-radius;
+            max-height: 150px;
+            max-width: 100%;
+            cursor: pointer;
+            margin-top: 40px;
+            margin-left: 22%;
+
+            &-image {
+                height: 120px;
+                width: 210px;
+                object-fit: cover;
+                border-radius: $base-border-radius;
+            }
+
+            &-text {
+                position: absolute;
+                margin-top: 80px;
+                margin-left: 1%;
+                line-height: 100%;
+                width: 70%;
+                font-size: 12px;
+            }
+        }
+    }
+
+    @media (max-width: 277px) {
+        margin-top: 20px;
+
+        .card-item {
+            display: flex;
+            border-radius: $base-border-radius;
+            max-height: 150px;
+            max-width: 100%;
+            cursor: pointer;
+            margin-top: 20px;
+            margin-left: 24%;
+
+            &-image {
+                height: 100px;
+                width: 190px;
+                object-fit: cover;
+                border-radius: $base-border-radius;
+            }
+
+            &-text {
+                position: absolute;
+                margin-top: 70px;
+                margin-left: 1%;
+                line-height: 100%;
+                width: 65%;
+                font-size: 10px;
+            }
+        }
+    }
+}
