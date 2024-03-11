@@ -25,7 +25,7 @@ $nav-logo-width: 150px;
     .A_Propos,
     .Active {
         cursor: pointer;
-        color: #FF6060;
+        color: #000000;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
@@ -33,7 +33,10 @@ $nav-logo-width: 150px;
         line-height: 142.6%;
         text-decoration-line: none;
     }
-
+    .Active{
+        text-decoration-line: underline;
+        
+    }
     @media (max-width: 700px), (max-width: 600px), (min-width: 467px) and (max-width: 555px) {
         .Accueil,
         .Active,
