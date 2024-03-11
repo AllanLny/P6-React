@@ -4,10 +4,12 @@ import VectorUp from '../../assets/VectorH.png'
 import VectorDown from '../../assets/VectorB.png'
 
 function Dropdown({ title, description }) {
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(false);
+
     const handleOpen = () => {
-        setOpen(!open)
-    }
+        setOpen(!open);
+    };
+
     return (
         <div className="DropDownContainer">
             <button className="DropBtn" onClick={handleOpen}>
@@ -18,11 +20,10 @@ function Dropdown({ title, description }) {
                     <img src={VectorDown} alt="vectorDown" />
                 )}
             </button>
-            {open ? (
-                <p className="DropDownContainerTexte"> {description}</p>
-            ) : null
-            }
-        </div >
-    )
+            <div className={`DropDownContainerTexte ${open ? 'visible' : ''}`}>
+                {description}
+            </div>
+        </div>
+    );
 }
 export default Dropdown
